@@ -1,16 +1,16 @@
 /*--------------------------------*- C++ -*-----------------------------------*\
-| 		                     |                                                 |
+| 		             |                                                 |
 |Continuum Flow Mathematics  | ANSYS FLUENT: User Defined Functions            |
 |*   *     *     * ** * **   | Version:  1.0                                   |
-| **  *  *  **  *    *       | Discription:							           |
+| **  *  *  **  *    *       | Discription:				       |
 |   *  **     *   *    *  *  |UDF for specifying mass flow rate profile based  |
 |                *    *      |on Physical time steps for mass flow rate        |
-|                         *  |boundary. THIS IS FOR CONTRACTION 1 DEVICE,	   |
-|*  *       *     *    * *   |WHERE 0.5 IS INLET, AND 0.375 IS OUTLET with	   |
-|      ***      *    *       |gas flow rate 1 SLDPM. 						   |	
+|                         *  |boundary. THIS IS FOR CONTRACTION 1 DEVICE,      |
+|*  *       *     *    * *   |WHERE 0.5 IS INLET, AND 0.375 IS OUTLET with     |
+|      ***      *    *       |gas flow rate 1 SLDPM. 			       |	
 |  *  *             *        |ANSYS UDF functions for the TWO PHASE FLOW for   |
 | *        * **              |the given accessible data.                       |
-|                            |												   |
+|                            |						       |
 |                  *         |                                                 |
 |    *                  *    |	                                               |
 \*----------------------------------------------------------------------------*/	 	
